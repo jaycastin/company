@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Landing Page</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
-    <header class="bg-dark text-white">
-        <nav class="navbar navbar-expand-lg navbar-dark container">
-            <a class="navbar-brand" href="#">Company Logo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Company Logo -->
+                <a class="navbar-brand" href="#">Company Logo</a>
+                <!-- Toggler/collapsible Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -28,11 +42,15 @@
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
-        <section class="hero bg-primary text-white text-center d-flex align-items-center justify-content-center">
+        <section class="hero d-flex align-items-center justify-content-center bg-primary text-white text-center">
             <div class="container">
-                <h1>Welcome to Our Company</h1>
-                <p class="lead">Your Success, Our Commitment</p>
-                <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                <div class="row">
+                    <div class="col">
+                        <h1>Welcome to Our Company</h1>
+                        <p class="lead">Your Success, Our Commitment</p>
+                        <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                    </div>
+                </div>
             </div>
         </section>
 
