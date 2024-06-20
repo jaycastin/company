@@ -1,0 +1,74 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+#about h2 {
+    margin-bottom: 2rem;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Services Section Styling */
+#services .card {
+    transition: transform 0.3s;
+}
+
+#services .card:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Section Styling */
+#testimonials {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+#testimonials h2 {
+    margin-bottom: 2rem;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 5rem 0;
+}
+
+#contact form .form-control {
+    margin-bottom: 1rem;
+}
+
+#contact form button {
+    margin-top: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    padding: 1rem 0;
+}
+
+footer a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
